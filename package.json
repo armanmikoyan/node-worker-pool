@@ -1,8 +1,8 @@
 {
-  "name": "worker-pool",
+  "name": "node-worker-pool-lite",
   "author": "Arman Mikoyan <arman@mikoyan1@gmail.com>",
-  "version": "0.1.0",
-  "description": "A lightweight callback and promise worker_threads pool for Node.js.",
+  "version": "0.1.1",
+  "description": "A lightweight Node.js worker_threads pool with callback and Promise APIs.",
   "type": "module",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -25,17 +25,36 @@
   "scripts": {
     "test": "node --test test/*.test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armanmikoyan/node-worker-pool.git"
+  },
+  "homepage": "https://github.com/armanmikoyan/node-worker-pool#readme",
+  "bugs": {
+    "url": "https://github.com/armanmikoyan/node-worker-pool/issues"
+  },
   "keywords": [
+    "node",
+    "nodejs",
     "worker_threads",
     "worker-pool",
+    "worker-thread-pool",
     "thread-pool",
     "concurrency",
+    "parallel",
+    "parallel-processing",
     "pool",
     "parallelism",
-    "cpu-intensive"
+    "cpu-intensive",
+    "cpu-bound",
+    "background-jobs",
+    "task-queue",
+    "esm",
+    "typescript"
   ],
   "engines": {
     "node": ">=18"
   },
+  "sideEffects": false,
   "license": "MIT"
 }
