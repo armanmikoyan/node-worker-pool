@@ -1,0 +1,41 @@
+{
+  "name": "worker-pool",
+  "author": "Arman Mikoyan <arman@mikoyan1@gmail.com>",
+  "version": "0.1.0",
+  "description": "A lightweight callback and promise worker_threads pool for Node.js.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    },
+    "./promise": {
+      "types": "./lib/promise.d.ts",
+      "import": "./lib/promise.js"
+    }
+  },
+  "files": [
+    "lib",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "worker_threads",
+    "worker-pool",
+    "thread-pool",
+    "concurrency",
+    "pool",
+    "parallelism",
+    "cpu-intensive"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
