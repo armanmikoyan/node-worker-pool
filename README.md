@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/node-worker-pool-lite.svg)](https://www.npmjs.com/package/node-worker-pool-lite)
 [![license](https://img.shields.io/npm/l/node-worker-pool-lite.svg)](https://github.com/armanmikoyan/node-worker-pool/blob/main/LICENSE)
 
-A lightweight Node.js `worker_threads` pool with callback and Promise APIs.
+Lightweight, 0 dependency Node.js `worker_threads` pool with callback and Promise APIs.
 
 Node Worker Pool Lite helps you move CPU-heavy work off the main event loop while keeping a small, predictable API. It supports named worker tasks, a fixed-size worker pool, queued jobs, worker replacement after failures, and TypeScript declarations.
 
