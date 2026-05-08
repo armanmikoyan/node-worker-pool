@@ -1,6 +1,6 @@
 {
   "name": "node-worker-pool-lite",
-  "author": "Arman Mikoyan <arman@mikoyan1@gmail.com>",
+  "author": "Arman Mikoyan <arman.mikoyan1@gmail.com>",
   "version": "0.1.2",
   "description": "A lightweight Node.js worker_threads pool with callback and Promise APIs.",
   "type": "module",
